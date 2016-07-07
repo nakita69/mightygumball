@@ -18,7 +18,7 @@ function init() {
 function getSales_XHRv1() {
 	// change the URL to match the location where you
 	// put the sales.json file
-	var url = "http://localhost/gumball/sales.json";
+	var url = "https://github.com/nakita69/mightygumball/blob/master/sales.json";
 	var request = new XMLHttpRequest();
 	request.open("GET", url);
 	request.onreadystatechange = function() {
@@ -37,7 +37,7 @@ function getSales_XHRv1() {
 function getSales() {
 	// change the URL to match the location where you
 	// put the sales.json file
-	var url = "http://localhost/gumball/sales.json";
+	var url = "https://github.com/nakita69/mightygumball/blob/master/sales.json";
 	var request = new XMLHttpRequest();
 	request.open("GET", url);
 	request.onload = function() {
